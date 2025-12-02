@@ -1,0 +1,205 @@
+/* Basic Reset and Body Styles */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.gallery-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-card:hover {
+    transform: scale(1.05);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-card h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    height: 40px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .submit-btn {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #555;
+}
+
+/* Buttons */
+.button {
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    padding: 15px 32px;
+    display: inline-block;
+    box-shadow: 9px 9px 5px lightgrey;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: white;
+    color: orange;
+    box-shadow: 4px 4px 5px darkgrey;
+    transform: translateY(5px);
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+/* Material Icons */
+.material-icons {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+/* Box and Square Styles */
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: red;
+    position: static;
+}
+
+.box2 {
+    background-color: green;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.box3 {
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.square1 {
+    background-color: #f28b82;
+    border: 2px solid red;
+}
+
+.square2 {
+    background-color: #fbbc04;
+    border: 4px dashed orange;
+}
+
+.square3 {
+    background-color: #fff475;
+    border: 3px dotted yellow;
+}
+
+.square4 {
+    background-color: #ccff90;
+    border: 5px double green;
+}
+
+.square5 {
+    background-color: #a7ffeb;
+    border: 2px groove teal;
+}
+
+.square6 {
+    background-color
+
+ 
