@@ -1,66 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball</title>
-
-    <!-- External Stylesheet -->
+    <title>Basketball Enthusiasts</title>
     <link rel="stylesheet" type="text/css" href="BrysonDarlingCSS.css">
-    
-    <!-- Link to Material Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-
 <body>
 
-    <!-- Header Section -->
     <header>
         <h1>Basketball Enthusiasts</h1>
     </header>
 
-    <!-- Image Gallery Section -->
+    <section style="text-align: center; padding: 20px;">
+        <h2>Ready to hit the court?</h2>
+        <button class="button" onclick="welcomeHooper()">Join the Team</button>
+    </section>
+
     <section class="image-gallery">
         <div class="gallery-card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9UYEb9n0IiD3JzwGh_x4bKoU3F137oxqWA&s" alt="Basketball">
             <h3>Form</h3>
         </div>
-
         <div class="gallery-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt07o4mjBF0c6GWRXluHOv1n26BBeWOwZe2w&s" alt="Basketball in action" width="500" height="333">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt07o4mjBF0c6GWRXluHOv1n26BBeWOwZe2w&s" alt="Basketball in action">
             <h3>The Shot</h3>
         </div>
-
         <div class="gallery-card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQReMNB-uPnqnI_Boelc9W3B6wmVnALapz3iQ&s" alt="Basketball player jumping">
-            <h3>The Athletism</h3>
+            <h3>The Athleticism</h3>
         </div>
-
         <div class="gallery-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_ODS9wWpIdgP2tILQe0ZhrNPEk7RW7PHA&s" alt="Basketball game" width="500" height="333">
-            <h3>The points</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_ODS9wWpIdgP2tILQe0ZhrNPEk7RW7PHA&s" alt="Basketball game">
+            <h3>The Points</h3>
         </div>
     </section>
 
-    <!-- Contact Form Section -->
     <section class="contact-form">
         <h2>Contact Us</h2>
         <form action="#" method="post">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
-
             <label for="email">Your Email:</label>
             <input type="email" id="email" name="email" required>
-
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
-
             <button type="submit" class="submit-btn">Submit</button>
         </form>
     </section>
 
-    <!-- Navigation Bar Section (Challenge Demo: Flexbox) -->
     <nav class="nav-bar">
         <ul>
             <li><a href="#">Home</a></li>
@@ -70,13 +59,10 @@
         </ul>
     </nav>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Basketball Enthusiasts</p>
+        <p>&copy; 2026 Basketball Enthusiasts</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
-
-
